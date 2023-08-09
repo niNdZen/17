@@ -1,6 +1,5 @@
 per_cent = {'ТКБ': 5.6, 'СКБ': 5.9, 'ВТБ': 4.28, 'СБЕР': 4.0}
 money = input('money: ')
-#print(list(per_cent.values()))
 dep = list(per_cent.values())
 dep_a = int(float(dep[0])*int(money)/100)
 dep_b = int(float(dep[1])*int(money)/100)
